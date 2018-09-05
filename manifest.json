@@ -1,0 +1,18 @@
+{
+  "name": "1xBet BOT",
+  "description": "Tennis auto-bot.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "optional_permissions": ["tabs"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://1xniz.host/*"],
+      "js": ["content.js"],
+      "css": ["bot_style.css"]
+    }
+  ]
+}

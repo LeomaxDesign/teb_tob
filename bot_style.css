@@ -1,0 +1,44 @@
+.bot_start_button{
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	background-image: linear-gradient(0deg, #77a02e, #93c837);
+	background-size: auto 200%;
+	background-position: bottom;
+	border: none;
+	box-shadow: none !important;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 10px 40px;
+	margin-right: 35px;
+}
+
+.bot_stop_button {
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: red;
+	border: none;
+	box-shadow: none !important;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 10px 40px;
+	position: absolute;
+	right: 0;
+
+}
+
+.score-1,.score-2,.sep {
+	text-align: center;
+}
+
+.gameScore {
+	text-align: center;
+}
+
+#li-his {
+	text-align: center;
+	max-height: 15px;
+}
